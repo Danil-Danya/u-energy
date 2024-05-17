@@ -1,0 +1,31 @@
+.downtime {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0;
+        align-items: center;
+        border-bottom: 1px solid $bgDarkGray;
+        position: relative;
+    }
+
+    &__title {
+        &-list {
+            font-size: 16px !important;
+            padding: 24px 0;
+            border-bottom: 1px solid $bgDarkGray;
+        }
+    }
+
+    &__input {
+        position: absolute;
+        left: 400px;
+    }
+
+    &__button {
+        &-container {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+}

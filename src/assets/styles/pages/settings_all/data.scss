@@ -1,0 +1,12 @@
+.data {
+    &__title {
+        width: 100px;
+    }
+    &__item {
+        padding: 24px 0;
+        align-items: center;
+        display: flex;
+        gap: 260px;
+        border-bottom: 1px solid $bgGray;
+    }
+}

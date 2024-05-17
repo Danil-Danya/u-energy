@@ -1,0 +1,13 @@
+.security {
+    &__item {
+        display: flex;
+        gap: 160px;
+        align-items: center;
+        padding: 24px 0;
+        border-bottom: 1px solid $bgDarkGray;
+    }
+
+    &__textarea {
+        height: 200px !important;
+    }
+}

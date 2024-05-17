@@ -1,0 +1,292 @@
+{
+    "Login": {
+        "title": "Welcome to U-Energy!",
+        "text": "This page allows you to securely log into your U-Energy account and manage your energy consumption.",
+        "login": "Phone",
+        "password": "Password",
+        "button": "Login"
+    },
+    "Sidebar": {
+        "links": [
+            {
+                "path": "/dashboard",
+                "icon": "/src/assets/images/icons/sidebar/dashboard.svg",
+                "text": "Dashboard"
+            },
+            {
+                "path": "/analitics",
+                "icon": "/src/assets/images/icons/sidebar/analitics.svg",
+                "text": "Analytics"
+            },
+            {
+                "path": "/client-base",
+                "icon": "/src/assets/images/icons/sidebar/client-base.svg",
+                "text": "Client Base"
+            },
+            {
+                "path": "/station-controle",
+                "icon": "/src/assets/images/icons/sidebar/station-controle.svg",
+                "text": "Station Control"
+            },
+            {
+                "path": "/settings/all",
+                "icon": "/src/assets/images/icons/sidebar/settings.svg",
+                "text": "Settings"
+            }
+        ]
+    },
+    "Navbar": {
+        "search": "Search",
+        "links": [
+            {
+                "path": "/settings/all",
+                "icon": "@/assets/images/icons/navbar/settings.svg",
+                "text": "Settings"
+            },
+            {
+                "path": "/login",
+                "icon": "@/assets/images/icons/navbar/exit.svg",
+                "text": "Logout"
+            }
+        ]
+    },
+    "Analytics": {
+        "Statistics": {
+            "day": "Today",
+            "items": [
+                {
+                    "icon": "src/assets/images/icons/statistics/cach.svg",
+                    "title": "Balance",
+                    "number": "0",
+                    "unit": "UZS"
+                },
+                {
+                    "icon": "src/assets/images/icons/statistics/user.svg",
+                    "title": "Registered",
+                    "number": 0
+                },
+                {
+                    "icon": "src/assets/images/icons/statistics/energy.svg",
+                    "title": "Consumption",
+                    "number": 0,
+                    "unit": "kWh"
+                }
+            ],
+            "moreItems": [
+                {
+                    "icon": "src/assets/images/icons/statistics/cach.svg",
+                    "title": "Balance",
+                    "number": "0",
+                    "unit": "UZS"
+                },
+                {
+                    "icon": "src/assets/images/icons/statistics/user.svg",
+                    "title": "Registered",
+                    "number": 0
+                },
+                {
+                    "icon": "src/assets/images/icons/statistics/energy.svg",
+                    "title": "Consumption",
+                    "number": 0,
+                    "unit": "kWh"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/cach.svg",
+                    "title": "Revenue",
+                    "number": "0",
+                    "unit": "UZS"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/user.svg",
+                    "title": "Consumption",
+                    "number": 0,
+                    "unit": "UZS"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/energy.svg",
+                    "title": "Profit",
+                    "number": 0,
+                    "unit": "UZS"
+                }
+            ]
+        },
+        "Filters": {
+            "title": {
+                "analytics": "Analytics"
+            },
+            "dateFiltersList": ["Day", "Week", "Month", "Year"],
+            "filter": "Filter",
+            "add": "Add Station"
+        },
+        "Graphics": {
+            "title": "Statistics",
+            "switcher": {
+                "on": "Profit",
+                "off": "Expenses"
+            }
+        },
+        "Clients": {
+            "title": "Clients",
+            "search": "Search",
+            "sort": "Sort",
+            "export": "Export",
+            "next": "Next",
+            "back": "Back",
+            "clients": {
+                "numeration": "#",
+                "name": "Name",
+                "phone": "Phone Number",
+                "balance": "Balance",
+                "date-and-time": "Date and Time",
+                "action": "Action"
+            }
+        }
+    },
+    "Stations": {
+        "unit": "kWh",
+        "valute": "UZS",
+        "sale": "Discount",
+        "exit": "Close",
+        "save": "Save",
+        "delete": "Delete",
+        "popupAdd": {
+            "titleAdd": "Add Station",
+            "titleEdite": "Edite Station",
+            "name": "Name",
+            "address": "Address",
+            "long": "Longitude",
+            "lat": "Latitude",
+            "switcher": {
+                "on": "On",
+                "off": "Off"
+            }
+        },
+        "popupControl": {
+            "title": "Control",
+            "portName": "Port name",
+            "busy": "Busy",
+            "free": "Free"
+        }
+    },
+    "Settings": {
+        "Navbar": {
+            "title": "Settings",
+            "links": [
+                {
+                    "text": "All settings",
+                    "path": "/settings/all"
+                },
+                {
+                    "text": "Payments",
+                    "path": "/settings/payments"
+                },
+                {
+                    "text": "Promotions and discound",
+                    "path": "/settings/promotions-and-discounts"
+                },
+                {
+                    "text": "Downtime / Park",
+                    "path": "/settings/downtime"
+                },
+                {
+                    "text": "Notifications",
+                    "path": "/settings/notifications"
+                },
+                {
+                    "text": "Security",
+                    "path": "/settings/security"
+                },
+                {
+                    "text": "Backup",
+                    "path": "/settings/backup"
+                },
+                {
+                    "text": "Access to admin panel",
+                    "path": "/settings/admin"
+                },
+                {
+                    "text": "Integrations",
+                    "path": "/settings/integration"
+                }
+            ]
+        },
+        "Save": {
+            "save": "Save"
+        },
+        "All": {
+            "uploadLogo": "Upload logo",
+            "logo": "Logo",
+            "dataLists": [
+                {
+                    "title": "Phone",
+                    "type": "number"
+                },
+                {
+                    "title": "Email",
+                    "type": "mail"
+                },
+                {
+                    "title": "Address",
+                    "type": "text"
+                },
+                {
+                    "title": "Instagram",
+                    "type": "text"
+                },
+                {
+                    "title": "Telegram",
+                    "type": "text"
+                },
+                {
+                    "title": "YouTube",
+                    "type": "text"
+                }
+            ]
+        },
+        "Payments": {
+            "method": "Payment method",
+            "minSumm": "Minimal replenishment amount"
+        },
+        "Promotions": {
+            "firstCharge": "Discount on first charge"
+        },
+        "Downtime": {
+            "titleDowntime": "Downtime",
+            "titlePark": "Park",
+            "pricePerHour": "Price per hour",
+            "priceForTenMin": "Price for the first 10 minutes"
+        },
+        "Notifications": {
+            "balanceReplenishment": "About balance replenishment",
+            "startOrAndCherge": "At the beginning/end of charging",
+            "lowBalance": "About low balance",
+            "printHere": "Print here"
+        },
+        "Security": {
+            "privacyPolicy": "Privacy Policy",
+            "printHere": "Print here"
+        },
+        "Backup": {
+            "periodicity": "Setting the frequency",
+            "storage": "Storage setup",
+            "everyday": "Daily",
+            "everyweek": "Weekly",
+            "everymonth": "Monthly",
+            "hubstorage": "Local storage",
+            "localstorage": "Cloud storage"
+        },
+        "AdminPanel": {
+            "login": "Login",
+            "password": "Password",
+            "addStuff": "Add stuff",
+            "allAdmin": {
+                "name": "Name",
+                "login": "Login",
+                "password": "Password",
+                "device": "Device",
+                "time": "Time",
+                "action": "Action"
+            }
+        }
+    }
+}

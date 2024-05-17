@@ -1,0 +1,293 @@
+{
+    "Login": {
+        "title": "Добро пожаловать в U-Energy!",
+        "text": "Эта страница позволяет вам безопасно войти в свою учетную запись U-Energy и управлять своим энергопотреблением.",
+        "login": "Телефон",
+        "password": "Пароль",
+        "button": "Войти"
+    },
+    "Sidebar": {
+        "links": [
+            {
+                "path": "/dashboard",
+                "icon": "@/assets/images/icons/sidebar/dashboard.svg",
+                "text": "Дашборд"
+            },
+            {
+                "path": "/analitics",
+                "icon": "@/assets/images/icons/sidebar/analitics.svg",
+                "text": "Аналитика"
+            },
+            {
+                "path": "/client-base",
+                "icon": "@/assets/images/icons/sidebar/client-base.svg",
+                "text": "Клиентская база"
+            },
+            {
+                "path": "/station-controle",
+                "icon": "@/assets/images/icons/sidebar/station-controle.svg",
+                "text": "Управление ст..."
+            },
+            {
+                "path": "/settings/all",
+                "icon": "@/assets/images/icons/sidebar/settings.svg",
+                "text": "Настройки"
+            }
+        ]
+    },
+    "Navbar": {
+        "search": "Поиск",
+        "links": [
+            {
+                "path": "/settings/all",
+                "icon": "src/assets/images/icons/navbar/settings.svg",
+                "text": "Настройки"
+            },
+            {
+                "path": "/login",
+                "icon": "src/assets/images/icons/navbar/exit.svg",
+                "text": "Выход"
+            }
+        ]
+    },
+    "Analytics": {
+        "Statistics": {
+            "day": "Текущий день",
+            "items": [
+                {
+                    "icon": "/assets/images/icons/statistics/cach.svg",
+                    "title": "Баланс",
+                    "number": "0",
+                    "unit": "Сум"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/user.svg",
+                    "title": "Зарегистрированно",
+                    "number": 0
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/energy.svg",
+                    "title": "Потребление",
+                    "number": 0,
+                    "unit": "кВт"
+                }
+            ],
+            "moreItems": [
+                {
+                    "icon": "/assets/images/icons/statistics/cach.svg",
+                    "title": "Баланс",
+                    "number": "0",
+                    "unit": "Сум"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/user.svg",
+                    "title": "Зарегистрированно",
+                    "number": 0
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/energy.svg",
+                    "title": "Потребление",
+                    "number": 0,
+                    "unit": "кВт"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/cach.svg",
+                    "title": "Выручка",
+                    "number": "0",
+                    "unit": "Сум"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/user.svg",
+                    "title": "Расход",
+                    "number": 0,
+                    "unit": "Сум"
+                },
+                {
+                    "icon": "/assets/images/icons/statistics/energy.svg",
+                    "title": "Доход",
+                    "number": 0,
+                    "unit": "Сум"
+                }
+            ]
+        },
+        "Filters": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+            "title": {
+                "analitic": "Аналитика"
+            },
+
+            "dateFiltersList": ["День", "Неделя", "Месяц", "Год"],
+            "filter": "Фильтр",
+            "add": "Добавить станцию"
+        },
+        "Graphics": {
+            "title": "Статистика",
+            "switcher": {
+                "on": "Прибыль",
+                "off": "Затраты"
+            }
+        },
+        "Clients": {
+            "title": "Клиенты",
+            "search": "Поиск",
+            "sort": "Сортировать",
+            "export": "Экспортировать",
+            "next": "Вперед",
+            "back": "Назад",
+            "clients": {
+                "numeration": "#",
+                "name": "Имя",
+                "phone": "Номер телефона",
+                "balance": "Баланс",
+                "date-and-time": "Дата и время",
+                "action": "Действие"
+            }
+        }
+    },
+    "Stations": {
+        "unit": "кВт",
+        "valute": "Сум",
+        "sale": "Скидка",
+        "exit": "Закрыть",
+        "save": "Сохранить",
+        "delete": "Удалить",
+        "popupAdd": {
+            "titleAdd": "Добавить станцию",
+            "titleEdite": "Редактировать станцию",
+            "name": "Имя станции",
+            "address": "Адрес",
+            "long": "Долгота",
+            "lat": "Широта",
+            "switcher": {
+                "on": "Включено",
+                "off": "Выключено"
+            }
+        }, 
+        "popupControl": {
+            "title": "Управление",
+            "portName": "Имя порта",
+            "busy": "Занятый",
+            "free": "Свободный"
+        }
+    },
+    "Settings": {
+        "Navbar": {
+            "title": "Настройки",
+            "links": [
+                {
+                    "text": "Общие",
+                    "path": "/settings/all"
+                },
+                {
+                    "text": "Платежи",
+                    "path": "/settings/payments"
+                },
+                {
+                    "text": "Акции и скидки",
+                    "path": "/settings/promotions-and-discounts"
+                },
+                {
+                    "text": "Простой / Парковка",
+                    "path": "/settings/downtime"
+                },
+                {
+                    "text": "Уведомления",
+                    "path": "/settings/notifications"
+                },
+                {
+                    "text": "Безопасность",
+                    "path": "/settings/security"
+                },
+                {
+                    "text": "Резервное копирование",
+                    "path": "/settings/backup"
+                },
+                {
+                    "text": "Доступ к админ панели",
+                    "path": "/settings/admin"
+                },
+                {
+                    "text": "Интеграции",
+                    "path": "/settings/integration"
+                }
+            ]
+        },
+        "Save": {
+            "save": "Сохранить"
+        },
+        "All": {
+            "uploadLogo": "Upload logo",
+            "logo": "Логотип",
+            "dataLists": [
+                {
+                    "title": "Телефон",
+                    "type": "number"
+                },
+                {
+                    "title": "Email",
+                    "type": "mail"
+                },
+                {
+                    "title": "Адрес",
+                    "type": "text"
+                },
+                {
+                    "title": "Инстаграм",
+                    "type": "text"
+                },
+                {
+                    "title": "Телеграм",
+                    "type": "text"
+                },
+                {
+                    "title": "Ютуб",
+                    "type": "text"
+                }
+            ]
+        },
+        "Payments": {
+            "method": "Способ оплаты",
+            "minSumm": "Минимальная сумма пополнения"
+        },
+        "Promotions": {
+            "firstCharge": "Скидка на первую зарядку"
+        },
+        "Downtime": {
+            "titleDowntime": "Простой",
+            "titlePark": "Парковка",
+            "pricePerHour": "Цена за час",
+            "priceForTenMin": "Цена за первые 10 минут"
+        },
+        "Notifications": {
+            "balanceReplenishment": "О пополнении баланса",
+            "startOrAndCherge": "ЦО начале/окончании зарядки",
+            "lowBalance": "О низком балансе",
+            "printHere": "Напечатайте здесь"
+        },
+        "Security": {
+            "privacyPolicy": "Политика конфиденциальности",
+            "printHere": "Напечатайте здесь"
+        },
+        "Backup": {
+            "periodicity": "Настройка переодичности",
+            "storage": "Настройка хранилища",
+            "everyday": "Ежедневно",
+            "everyweek": "Еженедельно",
+            "everymonth": "Ежемесячно",
+            "hubstorage": "Облачное хранилище",
+            "localstorage": "Локальное хранилище"
+        },
+        "AdminPanel": {
+            "login": "Логин",
+            "password": "Пароль",
+            "addStuff": "Добавить сотрудника",
+            "allAdmin": {
+                "name": "Имя",
+                "login": "Логин",
+                "password": "Пароль",
+                "device": "Устройство",
+                "time": "Время",
+                "action": "Действиe"
+            }
+        }
+    }
+}                                                                             

@@ -1,0 +1,80 @@
+.navbar {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    position: relative;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__user {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    &__alert {
+        transition: transform 500ms;
+        padding: 5px;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
+
+    &__avatar {
+        display: flex;
+        gap: 10px;
+        padding: 12px 25px 12px 12px;
+        background: $white;
+        border-radius: 12px;
+        transition: background 500ms;
+        border: 1px solid #E8E8E8;
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+
+        &:hover {
+            cursor: pointer;
+            background: $textLightGray;
+        }
+
+        &-img {
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+        }
+
+        &-name {
+            font-family: $ib;
+            color: $black;
+            font-size: 12px;
+        }
+
+        &-role {
+            font-family: $im;
+            color: $textGray;
+            font-size: 12px;
+        }
+    }
+
+    &__language {
+        padding: 12px 24px;
+        display: flex;
+        gap: 10px;
+
+        &-img {
+            cursor: pointer;
+        }
+    }
+}
+
+.navbar-popup-enter-active,
+.navbar-popup-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.navbar-popup-enter-from,
+.navbar-popup-leave-to {
+    opacity: 0;
+}

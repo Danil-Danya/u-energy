@@ -1,0 +1,26 @@
+.save {
+    &__container {
+        padding: 20px 24px;
+        border: 2px solid $bgDarkGray;
+        display: flex;  
+        justify-content: flex-end;
+    }
+
+    &__button {
+        border-radius: 8px;
+        background: $bgGray;
+        border: none;
+        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.04) inset;
+        font-size: 12px;
+        color: $textGray;
+        font-family: $isb;
+        padding: 8px 12px;
+        cursor: pointer;
+        transition: all 500ms;
+
+        &:hover {
+            background: $bgGreen;
+            color: $black;
+        }
+    }
+}

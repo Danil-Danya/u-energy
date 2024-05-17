@@ -1,0 +1,17 @@
+.promotions {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0;
+        align-items: center;
+        border-bottom: 1px solid $bgDarkGray;
+    }
+
+    &__button {
+        &-container {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+}

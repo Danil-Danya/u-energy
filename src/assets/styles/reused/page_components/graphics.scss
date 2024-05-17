@@ -1,0 +1,40 @@
+.graphics {
+    margin-bottom: 20px;
+    &__container {
+        background: $white;
+        padding: 24px;
+        border-radius: 16px;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+        margin-top: 20px;
+    }
+
+    &__bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__filter {
+        background: $bgDarkGray;
+        padding: 10px;
+        display: flex;
+        gap: 5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.06) inset;
+
+        &-button {
+            display: flex;
+            border: none;
+            align-items: center;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 6px;
+            transition: background 500ms;
+
+            &-active {
+                background: $white;
+                transition: background 500ms;
+            }
+        }
+    }
+}

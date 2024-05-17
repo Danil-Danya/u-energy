@@ -1,0 +1,44 @@
+.statistics {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__title {
+        color: $black;
+        font-family: $isb;
+        font-size: 14px;
+    }
+
+    &__text {
+        font-size: 12px;
+        font-family: $im;
+        color: $textGray;
+        margin: 10px 0;
+    }
+
+    &__number {
+        color: $black;
+        font-family: $ib;
+        font-size: 24px;
+    }
+
+
+    &__item {
+        width: 360px;
+        height: 190px;
+        background: $white;
+        border: 1px solid rgba(240, 240, 240, 1);
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+        border-radius: 16px;
+
+        &:nth-of-type(n + 4) {
+            margin-top: 20px;
+        }
+
+        &-content {
+            margin: 24px;
+        }
+    }
+}

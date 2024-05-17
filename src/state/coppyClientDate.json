@@ -1,0 +1,11 @@
+{
+    "numeration": "#",
+    "name": "Имя",
+    "phone": "Номер телефона",
+    "email": "Электронная почта",
+    "balance": "Баланс",
+    "history": "История",
+    "method-replenishment": "Способ пополнения",
+    "date-and-time": "Дата и время",
+    "action": "Действие"
+}

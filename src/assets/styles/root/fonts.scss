@@ -1,0 +1,33 @@
+// the inter family fonts
+
+@font-face {
+    font-family: Inter-bold;
+    src: url('@/assets/fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: Inter-semibold;
+    src: url('@/assets/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Inter-medium;
+    src: url('@/assets/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: Inter-regular;
+    src: url('@/assets/fonts/Inter-Regular.ttf');
+}
+
+// the lato family fonts
+
+@font-face {
+    font-family: Lato-regular;
+    src: url('@/assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-semibold;
+    src: url('@/assets/fonts/Lato-SemiBold.ttf');
+}

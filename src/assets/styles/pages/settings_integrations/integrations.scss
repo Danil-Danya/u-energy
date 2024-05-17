@@ -1,0 +1,21 @@
+.integrations {
+    &__item {
+        display: flex;
+        gap: 330px;
+        padding: 24px 0;
+        border-bottom: 1px solid $bgDarkGray;
+    }
+
+    &__input {
+        &-container {
+            position: relative;
+        }
+
+        &-icon {
+            position: absolute;
+            top: 7.5px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+}

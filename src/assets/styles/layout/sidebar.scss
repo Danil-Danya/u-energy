@@ -1,0 +1,71 @@
+.sidebar {
+    display: block;
+    width: 280px;
+    height: 100vh;
+    background: $white;
+    border: 1px solid #777f8c29;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        max-width: 215px;
+        width: 100%;
+    }
+
+    &__logo {
+        margin: 32px 0 68px 0;
+    }
+
+    &__navigation .link-active {
+        color: $black;
+        background: $bgDarkGray;
+        border-radius: 10px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        stroke: #000;
+    }
+
+    &__navigation li:last-of-type {
+        margin-top: 500px;
+
+        @include media ($QHD) {
+            margin-top: 600px;
+        }
+
+        @include media ($fullHd) {
+            margin-top: 500px;
+        }
+
+        @include media (1536px) {
+            margin-top: 300px;
+        }
+
+        @include media ($md) {
+            margin-top: 300px;
+        }
+
+    }
+
+    &-link {
+        display: inline-block;
+        padding: 12px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        color: $textGray;
+        font-family: $im;
+    }
+}
+
+.sidebar__icon {
+    fill: red;
+    stroke: red !important;
+}

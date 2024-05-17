@@ -1,0 +1,108 @@
+.station {
+    &__analitics {
+        margin-bottom: 100px;
+        margin-top: 50px;
+
+        &-item {
+            border-radius: 16px;
+            border: 1px solid #F0F0F0;
+            box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+            background: $white;
+            width: 360px;
+            height: 280px;
+            padding: 24px;
+        }
+
+        &-consumption {
+            font-family: $ib;
+            font-size: 22px;
+            color: $bgPink;
+            display: block;
+            margin-top: 5px;
+        }
+
+        &-price {
+            font-size: 22px;
+            font-family: $ib;
+            color: $black;
+        }
+
+        &-profit {
+            font-size: 22px;
+            font-family: $ib;
+            color: $bgDarkGreen;
+            margin-top: 5px;
+            display: inline-block;
+            // border: 3px solid;
+        }
+
+        &-filter {
+            margin-left: 50px;
+            cursor: pointer;
+            color: $black;
+        }
+
+        &-title {
+            font-size: 22px !important;
+        }
+
+
+        &-data {
+            margin-top: 30px;
+        }
+    }
+
+    &__bar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        border: none;
+        background: white;
+        height: 16px;
+        cursor: pointer;
+
+        &-container {
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__text {
+        font-size: 12px;
+        margin-top: 10px;
+        font-family: $isb;
+        color: $textGray;
+
+    }
+    
+    &__price {
+        font-size: 24px;
+        font-family: $ib;
+        color: $black;
+        margin-top: 2px;
+
+        & > span {
+            font-size: 12px;
+            color: $bgPink;
+        }
+    }
+    
+    &__item {
+        border-radius: 16px;
+        border: 1px solid #F0F0F0;       
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+        background: $white;
+        width: 360px;
+        height: 190px;
+        padding: 24px;
+    }
+}
